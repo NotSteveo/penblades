@@ -1,18 +1,28 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.banner {
+.banner-container {
     background-color: orange;
 }
-.value-points{
+.value-points-container{
     background-color: green;
+    .value-points {
+        display: flex;
+        justify-content: space-around;
+    }
+    .cta-container{
+        display: flex;
+        justify-content: center;
+    }
 }
-.ordering{
+.ordering-container{
     background-color: red;
 }
-.testimonials{
+.testimonials-containers{
     background-color: orange;
 }
-.images{
+.images-container{
     background-color: green;
+    justify-content: space-around;
+    display: flex;
 }
