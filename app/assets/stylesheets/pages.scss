@@ -9,6 +9,9 @@
     .value-points {
         display: flex;
         justify-content: space-around;
+        .value-point-header{
+            display: flex;
+        }
     }
     .cta-container{
         display: flex;
