@@ -1,28 +1,66 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.banner-container {
-    background-color: orange;
+.top-display{
+    height: 383px;
+    background-color: #20344C;
 }
-.value-points-container{
-    background-color: green;
-    .value-points {
-        display: flex;
-        justify-content: space-around;
+.values{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    height: 300px;
+    .value-point{
+        .value-point-image {
+            border-radius: 50%;
+            height: 30px;
+            width: 30px;
+            background-color: grey;
+        }
+        .value-point-title{
+            color: #E76042;
+            font-size: 20px;
+        }
     }
-    .cta-container{
+}
+.resources{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    .video-banner{
+        border-radius: 3px;
+        width: 330px;
+        height: 230px;
+        background-color: grey;
+    }
+    .how-to-order{
+        border-radius: 3px;
+        height: 230px;
+        width: 230px;
+        background-color: #E76042;
+    }
+    .resources{
+        border-radius: 3px;
+        height: 230px;
+        width: 230px;
+        background-color: #20344c;
+    }
+}
+.testimonials{
+    height: 551px;
+}
+.images{
+    height: 251px;
+    background-color: #20344c;
+    justify-content: center;
+    .bottom-image{
         display: flex;
         justify-content: center;
+        .image {
+            background-color: #D8D8D8;
+            width: 216px;
+            height: 146px;
+        }
     }
-}
-.ordering-container{
-    background-color: red;
-}
-.testimonials-containers{
-    background-color: orange;
-}
-.images-container{
-    background-color: green;
-    justify-content: space-around;
-    display: flex;
+    
 }

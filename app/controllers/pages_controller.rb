@@ -7,6 +7,22 @@ class PagesController < ApplicationController
     @pages = Page.all
   end
 
+  def resources
+    @pages = Page.all
+  end
+
+  def features
+    @pages = Page.all
+  end
+
+  def process_page
+    @pages = Page.all
+  end
+
+  def ordering
+    @pages = Page.all
+  end
+
   # GET /pages/1
   # GET /pages/1.json
   def show

@@ -1,0 +1,13 @@
+@import "bootstrap";
+@import "pages";
+
+.purple{
+    background-color: #3B96FF;
+    color: white;
+}
+.flex{
+    display: flex;
+}
+.nav-right{
+    justify-content: flex-end;
+}
