@@ -6,9 +6,11 @@
     background-color: #20344C;
 }
 .values{
-    margin-top: 80px;
-    margin-bottom: 20px;
     height: 300px;
+    .value-point-container{
+        display: flex;
+        align-items: center;
+    }
     .value-point{
         .value-point-image {
             border-radius: 50%;
