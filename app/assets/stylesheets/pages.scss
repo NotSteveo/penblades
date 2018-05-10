@@ -73,6 +73,30 @@
     }
     .white{
         height: 50%;
+        .overlay{
+            padding: 5%;
+            /* Rectangle 11 Copy: */
+            background: #FFFFFF;
+            box-shadow: 4px 4px 24px 0 rgba(0,0,0,0.07);
+            border-radius: 5px; 
+            position: relative;
+            top: 50%;
+            left: 20%;
+            height: 80%;
+            width: 60%;
+            .overlay-header{
+                margin: 0px 0px 7% 0px;
+                font-size: 18px;
+                color: #20344C;
+                letter-spacing: 0.65px;
+            }
+            .splitter{
+                margin-right: 70%;
+            }
+            .overlay-content{
+                margin-top: 7%;
+            }
+        }
     }
     .orange{
         height: 50%;
