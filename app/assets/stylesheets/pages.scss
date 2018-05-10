@@ -2,8 +2,20 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .top-display{
-    height: 383px;
-    background-color: #20344C;
+    .overlay{
+        position: relative;
+        top: 125px;
+        left: 100px;
+        height: 60%;
+        width: 35%;
+        background: #FFFFFF;
+        border: 0 solid #D6D6D6;
+        box-shadow: 0 2px 24px 0 rgba(0,0,0,0.07);
+        border-radius: 5px;
+    }
+    .top-banner{
+        width: 75%;
+    }
 }
 .values{
     height: 300px;
@@ -51,8 +63,22 @@
 .testimonials{
     height: 551px;
 }
+
+.case-study{
+    .group-image{
+        width: 100%;
+    }
+    .white{
+        height: 50%;
+    }
+    .orange{
+        height: 50%;
+        background-color: #E76042;
+    }
+}
+
 .images{
-    height: 251px;
+    height: 350px;
     background-color: #20344c;
     justify-content: center;
     .bottom-image{
@@ -60,8 +86,8 @@
         justify-content: center;
         .image {
             background-color: #D8D8D8;
-            width: 216px;
-            height: 146px;
+            width: 300px;
+            height: 180px;
         }
     }
     

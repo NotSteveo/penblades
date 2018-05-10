@@ -1,9 +1,13 @@
 
 
 .row.my-3
-  .col-3
-  .col-9.top-display.
-    = image_tag('Bitmap.svg')
+  .col-12.top-display
+    .overlay
+      .overlay-header PenBlade is the safest scalpel on the market
+      hr
+      .overlay-content In hac habitasse platea dictumst. Vivamus adipiscing fermentum quam volutpat aliquam
+    .text-right
+      = image_tag('Bitmap.svg', class: 'top-banner')
 
 .row.values
   .col-3.value-point-container
@@ -42,6 +46,15 @@
     .comment lorem ispum
     .comment lorem ispum
     .comment lorem ispum
+
+.case-study
+  .row
+    .col-6
+      = image_tag('Group.svg', class: 'group-image')
+    .col-6
+      .white
+        .overlay
+      .orange
 
 .row.images.mx-auto
   .col-4.bottom-image.my-auto
