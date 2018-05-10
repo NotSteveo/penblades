@@ -1,13 +1,32 @@
 @import "bootstrap";
 @import "pages";
 
+.penblade-logo{
+    height: 25px;
+}
 .purple{
     background-color: #005BC7;
-    color: white;
+    color: white !important;
+    padding: 10px 20px !important;
+    letter-spacing: 0.44px;
 }
 .flex{
     display: flex;
+    background-color: white !important;
 }
 .nav-right{
     justify-content: flex-end;
+}
+.blue{
+    color: #005BC7 !important;
+    padding: 10px 20px;
+    letter-spacing: 0.44px;
+}
+.spacing{
+    padding: 10px 25px;
+}
+.black{
+    color: black !important;
+    letter-spacing: 0.44px;
+    padding: 10px 20px;
 }
