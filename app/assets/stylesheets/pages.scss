@@ -208,6 +208,22 @@
     }
 }
 .testimonials{
+    height: 350px;
+    .col-6.accredidation{
+
+    }
+    .col-6.another-point{
+        background-color: #FBFCFE;
+        .comment{
+            display: flex;
+        }
+        .link{
+            display: flex;
+            .text{
+                margin-right: 5%;
+            }
+        }
+    }
 }
 
 .case-study{
