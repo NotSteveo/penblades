@@ -129,13 +129,17 @@
     .video-banner{
         border-radius: 3px;
         width: 29%;
-        height: 260px;
+        height: 280px;
         background-color: grey;
+        .video{
+            margin-top: -7%;
+            margin-left: -7%;
+        }
     }
     .how-to-order{
         color: white;
         border-radius: 3px;
-        height: 260px;
+        height: 280px;
         width: 21%;
         background-color: #E5665D;
         padding: 2%;
@@ -152,13 +156,25 @@
             padding: 0;
         }
         .how-to-order-content{
-
+            letter-spacing: 0.95px;
+            word-spacing: .5px;
+            line-height: 28px;
+        }
+        .order-here{
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 8%;
+            .text{
+                letter-spacing: 0.95px;
+                word-spacing: .5px;
+                margin-right: 5%;
+            }
         }
     }
     .resource{
         color: white;
         border-radius: 3px;
-        height: 260px;
+        height: 280px;
         width: 21%;
         background-color: #20344c;
         padding: 2%;
@@ -175,7 +191,19 @@
             padding: 0;
         }
         .resource-content{
-
+            letter-spacing: 0.95px;
+            word-spacing: .5px;
+            line-height: 28px;
+        }
+        .contracts{
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 28%;
+            .text{
+                letter-spacing: 0.95px;
+                word-spacing: .5px;
+                margin-right: 5%;
+            }
         }
     }
 }
