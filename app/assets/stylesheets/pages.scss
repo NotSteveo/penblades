@@ -307,7 +307,6 @@
             position: relative;
             top: 50%;
             left: 20%;
-            height: 80%;
             width: 60%;
             .overlay-header{
                 margin: 0px 0px 7% 0px;
@@ -337,6 +336,9 @@
     height: 350px;
     background-color: #20344c;
     justify-content: center;
+    .cut-padding{
+        padding: 0px;
+    }
     .bottom-image{
         display: flex;
         justify-content: center;
