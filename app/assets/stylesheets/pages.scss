@@ -1,24 +1,41 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.top-display{
-    .overlay{
-        position: relative;
-        top: 125px;
-        left: 100px;
-        height: 60%;
-        width: 35%;
-        background: #FFFFFF;
-        border: 0 solid #D6D6D6;
-        box-shadow: 0 2px 24px 0 rgba(0,0,0,0.07);
-        border-radius: 5px;
+
+
+.overlay-top{
+    padding: 20%;
+    z-index:1;
+    top: 15%;
+    left: 40%;
+    position: relative;
+    height: 75%;
+    width: 145%;
+    background-color: white;
+    box-shadow: 4px 4px 24px 0 rgba(0,0,0,0.07);
+    border-radius: 5px;
+    .overlay-header-top{
+        color: #20344C;
+        font-size: 1.5em;
+        letter-spacing: 0.95px;
+        margin-right: 35%;
+        word-spacing: .5px;
     }
-    .col-9{
-        .top-banner{
-            width: 100%;
-        }
+    .splitter-top{
+        margin-top: 10%;
+        margin-bottom:10%;
+        margin-right: 80%;
+    }
+    .overlay-content-top{
+        
     }
 }
+
+.top-banner{
+    width: 100%;
+}
+
+
 .values{
     height: 300px;
     .value-point-container{
