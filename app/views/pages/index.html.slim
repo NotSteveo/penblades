@@ -64,8 +64,22 @@
 
 .row.testimonials
   .col-6.accredidation
-    .comment lorem ispum
-    .comment lorem ispum
+    .comment
+      .avatar-container
+        = image_tag('Avatar.svg', class: 'avatar')
+      .content-container
+        .name-container
+          .name Name
+          .accredidation Accredidcation
+        .text "This is what this person thinks about PenBlade"
+    .comment
+      .avatar-container
+        = image_tag('Avatar.svg', class: 'avatar')
+      .content-container
+        .name-container
+          .name Name
+          .accredidation Accredidcation
+        .text "This is what this person thinks about PenBlade"
   .col-6.another-point
     .comment 
       .container-text

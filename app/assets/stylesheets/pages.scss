@@ -209,23 +209,62 @@
 }
 .testimonials{
     height: 400px;
-    margin: 5% 0;
+    margin: 5% 0 12%;
     .col-6.accredidation{
-
+        .comment{
+            position: relative;
+            left: 20%;
+            z-index: 1;
+            border-radius: 10px;
+            box-shadow: 4px 4px 24px 0 rgba(0,0,0,0.07);
+            padding: 3%;
+            width: 85%;
+            margin-top: 8%;
+            display: flex;
+            background-color: white;
+            .avatar-container{
+                margin-right: 3%;
+            }
+            .name-container{
+                margin-bottom: 2%;
+                display: flex;
+                .name{
+                    font-size: 1.3em;
+                    margin-right: 5%;
+                    letter-spacing: 0.95px;
+                    word-spacing: .5px;
+                }
+                .accredidation{
+                    font-size: 1.1em;
+                    margin-top: 1%;
+                    letter-spacing: 0.95px;
+                        word-spacing: .5px;
+                }
+            }
+            .text{
+                letter-spacing: 0.95px;
+                word-spacing: .5px;
+            }
+        }
     }
     .col-6.another-point{
         background-color: #FBFCFE;
-        height: 425px;
-        margin-bottom: 3%;
+        height: 550px;
+        margin-bottom: 5%;
+        padding-top: 6%;
         .comment{
-            margin-top: 3%;
-            padding: 5%;
+            margin-top: 5%;
+            padding: 0 7% 7%;
             .container-text{
                 display: flex;
                 .image{
                     margin-right: 3%;
                 }
                 .text-container{
+                    .text{
+                        letter-spacing: 0.95px;
+                        word-spacing: .5px;
+                    }
                     .comment-splitter{
                         margin-top: 5%;
                         margin-right: 30%;
@@ -286,7 +325,7 @@
     }
     .orange{
         height: 50%;
-        background-color: #E76042;
+        background-color: #E5665D;
     }
 }
 
