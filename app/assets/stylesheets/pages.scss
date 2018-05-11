@@ -208,21 +208,29 @@
     }
 }
 .testimonials{
-    height: 350px;
+    height: 400px;
+    margin: 5% 0;
     .col-6.accredidation{
 
     }
     .col-6.another-point{
         background-color: #FBFCFE;
         .comment{
+            margin-top: 3%;
+            padding: 5%;
             display: flex;
-        }
-        .link{
-            display: flex;
-            .text{
-                margin-right: 5%;
+            .link{
+                display: flex;
+                .text{
+                    margin-right: 5%;
+                    color: #005BC7;
+                }
+            }
+            .comment-splitter{
+                margin-right: 30%;
             }
         }
+        
     }
 }
 
