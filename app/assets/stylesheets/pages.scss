@@ -16,7 +16,7 @@
     border-radius: 5px;
     .overlay-header-top{
         color: #20344C;
-        font-size: 1.5em;
+        font-size: 1.5vw;
         letter-spacing: 0.95px;
         margin-right: 35%;
         word-spacing: .5px;
@@ -27,6 +27,7 @@
         margin-right: 80%;
     }
     .overlay-content-top{
+        font-size: 1vw;
         letter-spacing: 0.95px;
         word-spacing: .5px;
         line-height: 32px;
@@ -145,7 +146,7 @@
         padding: 2%;
         .how-to-order-title{
             letter-spacing: 0.65px;
-            font-size: 1.2em;
+            font-size: 1.25vw;
         }
         .how-to-order-splitter{
             display: block;
@@ -165,6 +166,7 @@
             justify-content: flex-end;
             margin-top: 8%;
             .text{
+                font-size: 1vw;
                 letter-spacing: 0.95px;
                 word-spacing: .5px;
                 margin-right: 5%;
@@ -180,7 +182,7 @@
         padding: 2%;
         .resource-title{
             letter-spacing: 0.65px;
-            font-size: 1.2em;
+            font-size: 1.25vw;
         }
         .resource-splitter{
             display: block;
@@ -200,6 +202,7 @@
             justify-content: flex-end;
             margin-top: 28%;
             .text{
+                font-size: 1vw;
                 letter-spacing: 0.95px;
                 word-spacing: .5px;
                 margin-right: 5%;
@@ -308,7 +311,7 @@
             width: 60%;
             .overlay-header{
                 margin: 0px 0px 7% 0px;
-                font-size: 18px;
+                font-size: 2vw;
                 color: #20344C;
                 letter-spacing: 0.65px;
             }
@@ -316,6 +319,7 @@
                 margin-right: 70%;
             }
             .overlay-content{
+                font-size: 1vw;
                 margin-top: 7%;
                 word-spacing: .5px;
                 letter-spacing: 0.65px;
