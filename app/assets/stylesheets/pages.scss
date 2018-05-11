@@ -83,12 +83,46 @@
     }
 }
 
+.values-other{
+    height: 375px;
+    background-color: white;
+    margin: 5% 0;
+    padding: 0 5%;
+    .value-point-container{
+        display: flex;
+        align-items: center;
+    }
+    .value-point{
+        .value-point-image{
+            display: flex;
+            justify-content: center;
+            margin-left: 5%;
+            
+        }
+        .value-point-title{
+            color: #E76042;
+            font-size: 20px;
+            letter-spacing: 0.95px;
+            word-spacing: .5px;
+            line-height: 32px;
+            .image{
+                margin-bottom: 3%;
+                margin-left: 17%;
+            }
+        }
+        .value-point-content{
+            letter-spacing: 0.95px;
+            word-spacing: .5px;
+            line-height: 32px;
+        }
+    }
+}
+
 
 .resources{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 350px;
     .video-banner{
         border-radius: 3px;
         width: 330px;
@@ -109,7 +143,6 @@
     }
 }
 .testimonials{
-    height: 551px;
 }
 
 .case-study{
