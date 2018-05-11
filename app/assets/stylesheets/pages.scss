@@ -215,20 +215,33 @@
     }
     .col-6.another-point{
         background-color: #FBFCFE;
+        height: 425px;
+        margin-bottom: 3%;
         .comment{
             margin-top: 3%;
             padding: 5%;
-            display: flex;
+            .container-text{
+                display: flex;
+                .image{
+                    margin-right: 3%;
+                }
+                .text-container{
+                    .comment-splitter{
+                        margin-top: 5%;
+                        margin-right: 30%;
+                    }
+                }
+            }
             .link{
                 display: flex;
+                justify-content: flex-end;
+                margin-top: -5%;
                 .text{
-                    margin-right: 5%;
+                    margin-right: 3%;
                     color: #005BC7;
                 }
             }
-            .comment-splitter{
-                margin-right: 30%;
-            }
+            
         }
         
     }
