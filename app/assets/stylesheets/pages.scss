@@ -40,8 +40,7 @@
 
 
 .values{
-    height: 375px;
-    background-color: #FBFCFE;
+    height: 400px;
     margin: 5% 0;
     padding: 0 5%;
     .value-point-container{
@@ -53,7 +52,10 @@
             display: flex;
             justify-content: center;
             margin-left: 5%;
-            
+            .image{
+                display: flex;
+                justify-content: center;
+            }
         }
         .value-point-title{
             color: #E76042;
@@ -63,26 +65,54 @@
             line-height: 32px;
             .image{
                 margin-bottom: 3%;
-                margin-left: 17%;
+                margin-left: 10%;
+                display: flex;
+                justify-content: center;
             }
+            .text{
+                display: flex;
+                justify-content: center;
+                text-align: center;
+            }
+            justify-content: center;
+        }
+        .value-splitter{
+            width: 25%;
         }
         .value-point-content{
             letter-spacing: 0.95px;
             word-spacing: .5px;
             line-height: 32px;
+            .text{
+                justify-content: center;
+                display: flex;
+                text-align: center;
+            }
+            
         }
     }
 }
-.request-sample{
-    color: #005BC7;
-    letter-spacing: 0.95px;
-    word-spacing: .5px;
-    margin: 0 auto;
+.request-sample-container{
     display: flex;
-    .text{
-        margin-right: 5%;
+    margin: 2% auto;
+    .request-sample{
+        padding: 5% 16%;
+        background-color: #005BC7;
+        color: white;
+        letter-spacing: 0.95px;
+        word-spacing: .5px;
+        margin: 0 auto;
+        display: flex;
+        .text{
+            margin-top: 2%;
+            margin-right: 5%;
+        }
+        .chevron{
+            margin-top:2%;
+        }
     }
 }
+
 
 .values-other{
     height: 375px;
@@ -98,11 +128,10 @@
             display: flex;
             justify-content: center;
             margin-left: 5%;
-            
         }
         .value-point-title{
             color: #E76042;
-            font-size: 20px;
+            font-size: 1.5vw;
             letter-spacing: 0.95px;
             word-spacing: .5px;
             line-height: 32px;
@@ -118,6 +147,7 @@
             letter-spacing: 0.95px;
             word-spacing: .5px;
             line-height: 32px;
+            font-size: 1vw;
         }
     }
 }
@@ -269,8 +299,8 @@
                         word-spacing: .5px;
                     }
                     .comment-splitter{
-                        margin-top: 5%;
-                        margin-right: 30%;
+                        margin-top: 7%;
+                        margin-right: 45%;
                     }
                 }
             }
@@ -336,9 +366,6 @@
     height: 350px;
     background-color: #20344c;
     justify-content: center;
-    .cut-padding{
-        padding: 0px;
-    }
     .bottom-image{
         display: flex;
         justify-content: center;
