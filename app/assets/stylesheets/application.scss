@@ -14,6 +14,11 @@
     display: flex;
     background-color: white !important;
 }
+.flex-bottom{
+    display: flex;
+    background-color: white !important;
+    justify-content: space-between;
+}
 .nav-right{
     justify-content: flex-end;
 }

@@ -96,16 +96,14 @@
     display: flex;
     margin: 2% auto;
     .request-sample{
-        padding: 5% 16%;
+        padding: 5% 10%;
         background-color: #005BC7;
         color: white;
-        letter-spacing: 0.95px;
-        word-spacing: .5px;
-        margin: 0 auto;
         display: flex;
         .text{
             margin-top: 2%;
-            margin-right: 5%;
+            margin-right: 3%;
+            padding: 0 1%;
         }
         .chevron{
             margin-top:2%;
@@ -130,6 +128,7 @@
             margin-left: 5%;
         }
         .value-point-title{
+            margin-top:0;
             color: #E76042;
             font-size: 1.5vw;
             letter-spacing: 0.95px;
@@ -271,7 +270,7 @@
                     font-size: 1.1em;
                     margin-top: 1%;
                     letter-spacing: 0.95px;
-                        word-spacing: .5px;
+                    word-spacing: .5px;
                 }
             }
             .text{
@@ -282,7 +281,7 @@
     }
     .col-6.another-point{
         background-color: #FBFCFE;
-        height: 550px;
+        height: 450px;
         margin-bottom: 5%;
         padding-top: 6%;
         .comment{
@@ -363,17 +362,59 @@
 }
 
 .images{
-    height: 350px;
+    .more-title{
+        padding-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 7%;
+        color: #E5665D;
+        letter-spacing: 0.95px;
+        word-spacing: .5px;
+        font-size: 1.25vw;
+    }
+    height: 575px;
     background-color: #20344c;
     justify-content: center;
-    .bottom-image{
-        display: flex;
-        justify-content: center;
-        .image {
-            background-color: #D8D8D8;
+    .row{
+        .bottom-image{
             width: 300px;
-            height: 180px;
+            color: white;
+            .image {
+                width: 300px;
+                height: 180px;
+                .bottom-image{
+                    width: 100%;
+                }
+            }
+            .more-sub{
+                width: 300px;
+                margin-top: 10%;
+                .more-sub-title{
+                    letter-spacing: 0.95px;
+                    word-spacing: .5px;
+                    font-size: 1.25vw;
+                }
+                .more-sub-content{
+                    margin: 10% 0;
+                    letter-spacing: 0.95px;
+                    word-spacing: .5px;
+                    font-size: 1vw;
+                }
+                .more-link{
+                    .link{
+                        letter-spacing: 0.95px;
+                        word-spacing: .5px;
+                        font-size: 1vw;
+                        color: #E5665D;
+                    }
+                }
+                .more-splitter{
+                    display: block;
+                    height: 1px;
+                    border: 0;
+                    border-top: 1px solid #ccc;
+                    padding: 0;
+                }
+            }
         }
     }
-    
 }
