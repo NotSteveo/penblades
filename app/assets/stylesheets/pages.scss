@@ -365,7 +365,7 @@
     .more-title{
         padding-top: 2%;
         margin-bottom: 2%;
-        margin-left: 7%;
+        margin-left: 3%;
         color: #E5665D;
         letter-spacing: 0.95px;
         word-spacing: .5px;
@@ -374,7 +374,9 @@
     height: 575px;
     background-color: #20344c;
     justify-content: center;
+    margin-right: -15px;
     .row{
+        padding: 0 2% 0% 3%;
         .bottom-image{
             width: 300px;
             color: white;
@@ -400,11 +402,15 @@
                     font-size: 1vw;
                 }
                 .more-link{
+                    display: flex;
+                    justify-content: flex-end;
                     .link{
                         letter-spacing: 0.95px;
                         word-spacing: .5px;
                         font-size: 1vw;
                         color: #E5665D;
+                        margin-right: 2%;
+                        align-self: center;
                     }
                 }
                 .more-splitter{
