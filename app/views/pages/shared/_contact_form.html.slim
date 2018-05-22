@@ -1,42 +1,57 @@
 / NOTE Just using an HTML form rather than rails form helpers because we're submitting to a salesforce endpoint
 
-form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST"
+.container
+  .row
+    .col-5
 
-  input name="oid" type="hidden" value="00D1I000002Mber"
-  input name="retURL" type="hidden" value="http://www.penblade.com"
+      form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST"
 
-  label for="company"  Company
-  input#company maxlength="40" name="company" size="20" type="text"
-  br
+        input name="oid" type="hidden" value="00D1I000002Mber"
+        input name="retURL" type="hidden" value="http://www.penblade.com"
 
-  label for="first_name"  First Name
-  input#first_name maxlength="40" name="first_name" size="20" type="text"
-  br
+        .form-row
+          .form-group
+            label for="facility"  Facility
+            input#facility.form-control maxlength="40" name="facility" size="20" type="text"
+          .spacer
+          .form-group
+            label for="city"  City
+            input#city.form-control maxlength="40" name="city" size="20" type="text"
+          .spacer
+          .form-group
+            label for="state"  State
+            input#state.form-control maxlength="20" name="state" size="20" type="text"
 
-  label for="last_name"  Last Name
-  input#last_name maxlength="80" name="last_name" size="20" type="text"
-  br
+        .form-row
+          .form-group
+            label for="first_name"  First Name
+            input#first_name.form-control maxlength="40" name="first_name" size="20" type="text"
+          .spacer
+          .form-group
+            label for="last_name"  Last Name
+            input#last_name.form-control maxlength="80" name="last_name" size="20" type="text"
+          .spacer
+          .form-group
+            label for="title"  Title
+            input#title.form-control maxlength="40" name="title" size="20" type="text"
 
-  label for="title"  Title
-  input#title maxlength="40" name="title" size="20" type="text"
-  br
 
-  label for="phone"  Phone
-  input#phone maxlength="40" name="phone" size="20" type="text"
-  br
+        .form-row
+          .form-group
+            label for="phone"  Phone
+            input#phone.form-control maxlength="40" name="phone" size="20" type="text"
+          .spacer
+          .form-group
+            label for="email"  Email
+            input#email.form-control maxlength="80" name="email" size="20" type="text"
 
-  label for="email"  Email
-  input#email maxlength="80" name="email" size="20" type="text"
-  br
 
-  label for="city"  City
-  input#city maxlength="40" name="city" size="20" type="text"
-  br
+        .form-row
+          .form-group
+            label More about us
+            textarea#00N1I00000Dyq7J.form-control maxlength="255" name="00N1I00000Dyq7J" size="20" type="text"
 
-  label for="state"  State/Province
-  input#state maxlength="20" name="state" size="20" type="text"
-  br
-  | Lead Notes:
-  input#00N1I00000Dyq7J maxlength="255" name="00N1I00000Dyq7J" size="20" type="text"
-  br
-  input name="submit" type="submit"
+        input.btn.btn-primary name="submit" type="submit"
+
+        h4.form-info This form will submit through email.
+        h4.form-info You will be contacted shortly.
