@@ -1,0 +1,33 @@
+form {
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  label {
+    font-family: "Muli-Regular";
+    font-size: 10px;
+    color: $black;
+    letter-spacing: 0.36px;
+  }
+
+  .textarea {
+    resize: none;
+  }
+
+  .spacer {
+    // width: 10px;
+
+    @include for-tablet-small-down {
+      display: none;
+    }
+  }
+
+  h4.form-info {
+    font-family: "Muli-Regular";
+    font-size: 10px;
+    color: $black;
+    letter-spacing: 0.36px;
+    text-align: center;
+  }
+}
