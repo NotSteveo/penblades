@@ -8,7 +8,7 @@ db_config: &db_config
   host:     <%= uri.host %>
   <% else %>
   username: root
-  password: 'swah1234'
+  password: ''
   host: localhost
   <% end %>
   adapter: mysql2

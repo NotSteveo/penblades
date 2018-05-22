@@ -1,11 +1,12 @@
 @import "bootstrap";
 @import "pages";
+@import "colors";
 
 .penblade-logo{
     height: 25px;
 }
 .purple{
-    background-color: #005BC7;
+    background-color: $blue;
     color: white !important;
     padding: 10px 20px !important;
     letter-spacing: 0.44px;
