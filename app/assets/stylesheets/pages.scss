@@ -22,7 +22,7 @@
     border-radius: 5px;
     .overlay-header-top{
         color: #20344C;
-        font-size: 1.5vw;
+        font-size: 20px;
         letter-spacing: 0.95px;
         word-spacing: .5px;
         font-family:$bold;
@@ -33,7 +33,7 @@
         margin-right: 80%;
     }
     .overlay-content-top{
-        font-size: 1vw;
+        font-size: 14px;
         letter-spacing: 0.95px;
         word-spacing: .5px;
         line-height: 32px;
@@ -195,7 +195,7 @@
         .value-point-title{
             margin-top:0;
             color: #E76042;
-            font-size: 1.5vw;
+            font-size: 20px;
             letter-spacing: 0.95px;
             word-spacing: .5px;
             line-height: 32px;
@@ -211,7 +211,7 @@
             letter-spacing: 0.95px;
             word-spacing: .5px;
             line-height: 32px;
-            font-size: 1vw;
+            font-size: 14px;
         }
     }
 }
@@ -246,7 +246,7 @@
         position: relative;
         .how-to-order-title, .resource-title{
             letter-spacing: 0.65px;
-            font-size: 1.25vw;
+            font-size: 18px;
             font-family: $semi;
         }
         .how-to-order-splitter, .resource-splitter{
@@ -281,7 +281,7 @@
               }
             }
             .text{
-                font-size: 1vw;
+                font-size: 14px;
                 letter-spacing: 0.95px;
                 word-spacing: .5px;
                 margin-right: 5%;
@@ -398,7 +398,7 @@
                 margin-right: 70%;
             }
             .overlay-content{
-                font-size: 1vw;
+                font-size: 14px;
                 margin-top: 7%;
                 word-spacing: .5px;
                 letter-spacing: 0.65px;
@@ -422,7 +422,7 @@
         color: #E5665D;
         letter-spacing: 0.95px;
         word-spacing: .5px;
-        font-size: 1.25vw;
+        font-size: 18px;
     }
     height: 575px;
     background-color: #20344c;
@@ -447,14 +447,14 @@
                     font-family: $bold;
                     letter-spacing: 0.95px;
                     word-spacing: .5px;
-                    font-size: 1.25vw;
+                    font-size: 18px;
                 }
                 .more-sub-content{
                     font-family: $light;
                     margin: 10% 0;
                     letter-spacing: 0.95px;
                     word-spacing: .5px;
-                    font-size: 1vw;
+                    font-size: 14px;
                 }
                 .more-link{
                     a {
@@ -465,7 +465,7 @@
                     .link{
                         letter-spacing: 0.95px;
                         word-spacing: .5px;
-                        font-size: 1vw;
+                        font-size: 14px;
                         color: #E5665D;
                         margin-right: 2%;
                         align-self: center;
