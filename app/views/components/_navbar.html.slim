@@ -1,0 +1,15 @@
+nav.navbar.navbar-expand-sm.navbar-light.bg-light.flex
+  a.navbar-brand href="/"
+    = image_tag("Penblade-Logo.svg", class: 'penblade-logo')
+  button.navbar-toggler aria-controls="navbarNav" aria-expanded="false" aria-label=("Toggle navigation") data-target="#navbarNav" data-toggle="collapse" type="button"
+    span.navbar-toggler-icon
+  #navbarNav.collapse.navbar-collapse.nav-right
+    ul.navbar-nav
+      li.nav-item.spacing
+        = link_to "Features", features_path, class: 'nav-link blue'
+      li.nav-item.spacing
+        = link_to "Ordering", ordering_path, class: "nav-link blue"
+      li.nav-item.spacing
+        = link_to "Resources", resources_path, class: "nav-link blue"
+      li.nav-item.spacing
+        a.nav-link.btn.purple href="#"  Request Samples
