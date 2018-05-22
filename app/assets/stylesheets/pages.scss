@@ -1,8 +1,21 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import 'fonts';
+@import 'colors';
 
-
+body {
+  max-width: 1440px;
+  margin:0 auto;
+}
+.nav-item {
+  font-family: $regular;
+  a {
+    &hover {
+      color:lighten($blue, 10%);
+    }
+  }
+}
 .overlay-top{
     padding: 20%;
     z-index:1;
@@ -20,6 +33,7 @@
         letter-spacing: 0.95px;
         margin-right: 35%;
         word-spacing: .5px;
+        font-family:$bold;
     }
     .splitter-top{
         margin-top: 10%;
@@ -63,6 +77,8 @@
             letter-spacing: 0.95px;
             word-spacing: .5px;
             line-height: 32px;
+            font-family:$semi;
+            font-size:14px;
             .image{
                 margin-bottom: 3%;
                 margin-left: 10%;
@@ -83,31 +99,52 @@
             letter-spacing: 0.95px;
             word-spacing: .5px;
             line-height: 32px;
+            font-family:$light;
+            font-size:14px;
+            color:$body;
             .text{
                 justify-content: center;
                 display: flex;
                 text-align: center;
             }
-            
+
         }
     }
 }
 .request-sample-container{
-    display: flex;
-    margin: 2% auto;
-    .request-sample{
-        padding: 5% 10%;
-        background-color: #005BC7;
-        color: white;
-        display: flex;
-        .text{
-            margin-top: 2%;
-            margin-right: 3%;
-            padding: 0 1%;
+    margin: 0 auto;
+    a {
+      color:$white;
+      background: $blue;
+      border-radius: 2px;
+      position: relative;
+      font-family: $regular;
+      font-size: 15px;
+      padding:.75rem;
+      display: inline-block;
+      transition: 500ms;
+      &:hover {
+        background:lighten($blue, 10%);
+        text-decoration:none;
+      }
+      .button-chev {
+        &:after {
+          content: url(White-chevron.svg);
+          padding: 0 0 0 11px;
+          top: 2px;
+          position: relative;
         }
-        .chevron{
-            margin-top:2%;
-        }
+      }
+    }
+    .text{
+        margin-top: 2%;
+        margin-right: 3%;
+        padding: 0 1%;
+    }
+    .chevron{
+        margin-top:2%;
+        position:absolute;
+        right:0;
     }
 }
 
@@ -312,9 +349,9 @@
                     color: #005BC7;
                 }
             }
-            
+
         }
-        
+
     }
 }
 
@@ -332,7 +369,7 @@
             /* Rectangle 11 Copy: */
             background: #FFFFFF;
             box-shadow: 4px 4px 24px 0 rgba(0,0,0,0.07);
-            border-radius: 5px; 
+            border-radius: 5px;
             position: relative;
             top: 50%;
             left: 20%;
