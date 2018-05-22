@@ -1,41 +1,44 @@
-.penblade-logo {
-  height: 25px;
-}
+$transition: 500ms;
 
-.purple {
-  background-color: $blue;
-  color: $white !important;
-  padding: 10px 20px !important;
-  letter-spacing: 0.44px;
+.penblade-logo{
+    height: 25px;
 }
-
-.flex {
-  display: flex;
-  background-color: $white !important;
+.purple{
+    background-color: $blue;
+    color: white !important;
+    padding: 10px 20px !important;
+    letter-spacing: 0.44px;
+    transition: 500ms;
+    &:hover {
+      background-color:lighten($blue, 10%);
+    }
 }
-
-.flex-bottom {
-  display: flex;
-  background-color: $white !important;
-  justify-content: space-between;
+.flex{
+    display: flex;
+    background-color: white !important;
 }
-
-.nav-right {
-  justify-content: flex-end;
+.flex-bottom{
+    display: flex;
+    background-color: white !important;
+    justify-content: space-between;
 }
-
-.blue {
-  color: $blue !important;
-  padding: 10px 20px;
-  letter-spacing: 0.44px;
+.nav-right{
+    justify-content: flex-end;
 }
-
-.spacing {
-  padding: 10px 25px;
+.blue{
+    color: $blue;
+    padding: 10px 20px;
+    letter-spacing: 0.44px;
+    transition: $transition;
+    &:hover {
+      color:lighten($blue, 10%);
+    }
 }
-
-.black {
-  color: $black !important;
-  letter-spacing: 0.44px;
-  padding: 10px 20px;
+.spacing{
+    padding: 10px 25px;
+}
+.black{
+    color: black !important;
+    letter-spacing: 0.44px;
+    padding: 10px 20px;
 }
