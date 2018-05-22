@@ -16,6 +16,9 @@ body {
     }
   }
 }
+.navbar-light .navbar-nav .nav-link {
+  color: $dark-blue;
+}
 .overlay-top{
     padding: 20%;
     z-index:1;
@@ -31,7 +34,6 @@ body {
         color: #20344C;
         font-size: 1.5vw;
         letter-spacing: 0.95px;
-        margin-right: 35%;
         word-spacing: .5px;
         font-family:$bold;
     }
@@ -45,6 +47,18 @@ body {
         letter-spacing: 0.95px;
         word-spacing: .5px;
         line-height: 32px;
+    }
+    .watch {
+      position: absolute;
+      bottom: 2rem;
+      right: 2rem;
+      font-family: $semi;
+      font-size: 16px;
+      color: $blue;
+      transition: $transition;
+      &:hover {
+        color: lighten($blue, 10%);
+      }
     }
 }
 
@@ -72,11 +86,11 @@ body {
             }
         }
         .value-point-title{
-            color: #E76042;
+            color: $red;
             font-size: 20px;
             letter-spacing: 0.95px;
             word-spacing: .5px;
-            line-height: 32px;
+            line-height: 1.6;
             font-family:$semi;
             font-size:14px;
             .image{
@@ -98,7 +112,7 @@ body {
         .value-point-content{
             letter-spacing: 0.95px;
             word-spacing: .5px;
-            line-height: 32px;
+            line-height: 1.6;
             font-family:$light;
             font-size:14px;
             color:$body;
@@ -118,22 +132,15 @@ body {
       background: $blue;
       border-radius: 2px;
       position: relative;
-      font-family: $regular;
+      font-family: $light;
       font-size: 15px;
-      padding:.75rem;
+      padding:0.75rem 1rem;
       display: inline-block;
-      transition: 500ms;
+      transition: $transition;
+      letter-spacing: 1px;
       &:hover {
         background:lighten($blue, 10%);
         text-decoration:none;
-      }
-      .button-chev {
-        &:after {
-          content: url(White-chevron.svg);
-          padding: 0 0 0 11px;
-          top: 2px;
-          position: relative;
-        }
       }
     }
     .text{
@@ -147,7 +154,30 @@ body {
         right:0;
     }
 }
-
+.button-chev {
+  &:after {
+    content: url(White-chevron.svg);
+    padding: 0 0 0 11px;
+    top: 2px;
+    position: relative;
+  }
+}
+.button-chev-blue {
+  &:after {
+    content: url(Chevron.svg);
+    padding: 0 0 0 11px;
+    top: 2px;
+    position: relative;
+  }
+}
+.video {
+  &:before {
+    content: url(video-play.svg);
+    padding: 0 11px 0 0;
+    top: 0;
+    position: relative;
+  }
+}
 
 .values-other{
     height: 375px;
@@ -203,70 +233,55 @@ body {
             margin-left: -7%;
         }
     }
-    .how-to-order{
+    .resource {
+      background-color: $dark-blue;
+    }
+    .how-to-order {
+      background-color: $red;
+    }
+    .how-to-order, .resource{
         color: white;
         border-radius: 3px;
         height: 280px;
         width: 21%;
-        background-color: #E5665D;
         padding: 2%;
-        .how-to-order-title{
+        position: relative;
+        .how-to-order-title, .resource-title{
             letter-spacing: 0.65px;
             font-size: 1.25vw;
+            font-family: $semi;
         }
-        .how-to-order-splitter{
+        .how-to-order-splitter, .resource-splitter{
             display: block;
             height: 1px;
             border: 0;
-            border-top: 1px solid #ccc;
+            border-top: .5px solid #ccc;
             margin: 1em 10em 1em 0;
             padding: 0;
         }
-        .how-to-order-content{
+        .how-to-order-content, .resource-content{
             letter-spacing: 0.95px;
             word-spacing: .5px;
-            line-height: 28px;
+            font-family:$light;
         }
-        .order-here{
+        .order-here, .contracts{
             display: flex;
             justify-content: flex-end;
             margin-top: 8%;
-            .text{
-                font-size: 1vw;
-                letter-spacing: 0.95px;
-                word-spacing: .5px;
-                margin-right: 5%;
+            a {
+              color:$white;
+              font-family: $semi;
+              letter-spacing: .51px;
+              font-size: 17px;
+              position: absolute;
+              bottom:25px;
+              right:25px;
+              transition:$transition;
+              &:hover {
+                text-decoration: none;
+                color:darken($white, 10%);
+              }
             }
-        }
-    }
-    .resource{
-        color: white;
-        border-radius: 3px;
-        height: 280px;
-        width: 21%;
-        background-color: #20344c;
-        padding: 2%;
-        .resource-title{
-            letter-spacing: 0.65px;
-            font-size: 1.25vw;
-        }
-        .resource-splitter{
-            display: block;
-            height: 1px;
-            border: 0;
-            border-top: 1px solid #ccc;
-            margin: 1em 10em 1em 0;
-            padding: 0;
-        }
-        .resource-content{
-            letter-spacing: 0.95px;
-            word-spacing: .5px;
-            line-height: 28px;
-        }
-        .contracts{
-            display: flex;
-            justify-content: flex-end;
-            margin-top: 28%;
             .text{
                 font-size: 1vw;
                 letter-spacing: 0.95px;
@@ -376,7 +391,7 @@ body {
             width: 60%;
             .overlay-header{
                 margin: 0px 0px 7% 0px;
-                font-size: 2vw;
+                font-size: 1.2rem;
                 color: #20344C;
                 letter-spacing: 0.65px;
             }

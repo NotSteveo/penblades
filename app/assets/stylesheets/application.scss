@@ -10,6 +10,10 @@
     color: white !important;
     padding: 10px 20px !important;
     letter-spacing: 0.44px;
+    transition: 500ms;
+    &:hover {
+      background-color:lighten($blue, 10%);
+    }
 }
 .flex{
     display: flex;
@@ -24,9 +28,13 @@
     justify-content: flex-end;
 }
 .blue{
-    color: #005BC7 !important;
+    color: $blue;
     padding: 10px 20px;
     letter-spacing: 0.44px;
+    transition: $transition;
+    &:hover {
+      color:lighten($blue, 10%);
+    }
 }
 .spacing{
     padding: 10px 25px;

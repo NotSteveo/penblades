@@ -5,7 +5,10 @@
     .overlay-top
       .overlay-header-top PenBlade is the safest scalpel on the market
       hr.splitter-top
-      .overlay-content-top In hac habitasse platea dictumst. Vivamus adipiscing fermentum quam volutpat aliquam
+      .overlay-content-top Keep your staff safe with the best safety scalpel on the market.
+      .watch.video
+        a> href="#"
+          | Watch the Video
   .col-9
       = image_tag('Bitmap.svg', class: 'top-banner')
 
@@ -56,19 +59,20 @@
     .how-to-order.m-3
       .how-to-order-title How to order
       hr.how-to-order-splitter
-      .how-to-order-content This is a short blurb on how to order PenBlade. This is for the purchasing departments at the hospital.
+      .how-to-order-content Ordering for your facility is easy. Fill out a form and we will contact you shortly.
       .order-here
-        .text Order Here
-        .chevron
-          = image_tag('White-chevron.svg')
+        a> href='#'
+          span class="button-chev"
+            | Order Here
+
     .resource.m-3
       .resource-title Resources
       hr.resource-splitter
       .resource-content Find GPO and Data Analysis Information here.
-      .contracts
-        .text Contracts
-        .chevron
-          = image_tag('White-chevron.svg')
+      .order-here
+        a> href='#'
+          span class="button-chev"
+            | Contracts
 
 .row.testimonials
   .col-6.accredidation
@@ -97,9 +101,9 @@
           .text PenBlade is the easiest safety scalple available today. See how it works.
           hr.comment-splitter
       .link
-        .text View Features
-        .image
-          = image_tag('Chevron.svg')
+        a> href='#'
+          span class="button-chev-blue"
+            | Contact Us
     .comment
       .container-text
         .image
@@ -108,9 +112,9 @@
           .text Do you have a question, or would like to place an order? Contact us today.
           hr.comment-splitter
       .link
-        .text Contact Us
-        .image
-          = image_tag('Chevron.svg')
+        a> href='#'
+          span class="button-chev-blue"
+            | Contact Us
 .case-study
   .row
     .col-6.cut-padding
