@@ -160,6 +160,14 @@
     position: relative;
   }
 }
+.button-chev-red {
+  &:after {
+    content: url(Orange-chevron.svg);
+    padding: 0 0 0 11px;
+    top: 2px;
+    position: relative;
+  }
+}
 .video {
   &:before {
     content: url(video-play.svg);
@@ -382,8 +390,9 @@
             .overlay-header{
                 margin: 0px 0px 7% 0px;
                 font-size: 1.2rem;
-                color: #20344C;
+                color: $dark-blue;
                 letter-spacing: 0.65px;
+                font-family: $bold;
             }
             .splitter{
                 margin-right: 70%;
@@ -394,6 +403,8 @@
                 word-spacing: .5px;
                 letter-spacing: 0.65px;
                 line-height: 28px;
+                font-family: $light;
+                color:$dark-gray;
             }
         }
     }
@@ -433,17 +444,22 @@
                 width: 300px;
                 margin-top: 10%;
                 .more-sub-title{
+                    font-family: $bold;
                     letter-spacing: 0.95px;
                     word-spacing: .5px;
                     font-size: 18px;
                 }
                 .more-sub-content{
+                    font-family: $light;
                     margin: 10% 0;
                     letter-spacing: 0.95px;
                     word-spacing: .5px;
                     font-size: 14px;
                 }
                 .more-link{
+                    a {
+                      color: $red;
+                    }
                     display: flex;
                     justify-content: flex-end;
                     .link{
