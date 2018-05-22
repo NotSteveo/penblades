@@ -1,60 +1,61 @@
 
+.container
+  .row.my-3
+    .col-3
+      .overlay-top
+        .overlay-header-top PenBlade is the safest scalpel on the market
+        hr.splitter-top
+        .overlay-content-top Keep your staff safe with the best safety scalpel on the market.
+        .watch.video
+          = link_to "Watch the Video", root_path
+    .col-9
+        = image_tag('Bitmap.svg', class: 'top-banner')
 
-.row.my-3
-  .col-3
-    .overlay-top
-      .overlay-header-top PenBlade is the safest scalpel on the market
-      hr.splitter-top
-      .overlay-content-top Keep your staff safe with the best safety scalpel on the market.
-      .watch.video
-        a> href="#"
-          | Watch the Video
-  .col-9
-      = image_tag('Bitmap.svg', class: 'top-banner')
+.container
+  .row.values
+    .col-3.value-point-container
+      .value-point.p-3
+        .value-point-title.my-3
+          .image
+            = image_tag('Safety-Blue.svg')
+          .text PREVENTS INJURIES
+        hr.value-splitter
+        .value-point-content.my-3
+          .text Keeping your staff safe is our number one concern
+    .col-3.value-point-container
+      .value-point.p-3
+        .value-point-title.my-3
+          .image
+            = image_tag('Intuitive-Blue.svg')
+          .text INTUITIVE DESIGN
+        hr.value-splitter
+        .value-point-content.my-3
+          .text PenBlade uses the familiar penlike click on the top to activate
+    .col-3.value-point-container
+      .value-point.p-3
+        .value-point-title.my-3
+          .image
+            = image_tag('HQ-Blue.svg')
+          .text HIGHEST QUALITY
+        hr.value-splitter
+        .value-point-content.my-3
+          .text It is already used in operating rooms around the country
+    .col-3.value-point-container
+      .value-point.p-3
+        .value-point-title.my-3
+          .image
+            = image_tag('Surgeons-Blue.svg')
+          .text PREFERRED BY SURGEONS
+        hr.value-splitter
+        .value-point-content.my-3
+          .text The safest, easiest to use scalpel currentl on the market
+    .request-sample-container
+        a> href='#'
+          span class="button-chev"
+            | Request a Sample
 
-.row.values
-  .col-3.value-point-container
-    .value-point.p-3
-      .value-point-title.my-3
-        .image
-          = image_tag('Safety-Blue.svg')
-        .text PREVENTS INJURIES
-      hr.value-splitter
-      .value-point-content.my-3
-        .text Keeping your staff safe is our number one concern
-  .col-3.value-point-container
-    .value-point.p-3
-      .value-point-title.my-3
-        .image
-          = image_tag('Intuitive-Blue.svg')
-        .text INTUITIVE DESIGN
-      hr.value-splitter
-      .value-point-content.my-3
-        .text PenBlade uses the familiar penlike click on the top to activate
-  .col-3.value-point-container
-    .value-point.p-3
-      .value-point-title.my-3
-        .image
-          = image_tag('HQ-Blue.svg')
-        .text HIGHEST QUALITY
-      hr.value-splitter
-      .value-point-content.my-3
-        .text It is already used in operating rooms around the country
-  .col-3.value-point-container
-    .value-point.p-3
-      .value-point-title.my-3
-        .image
-          = image_tag('Surgeons-Blue.svg')
-        .text PREFERRED BY SURGEONS
-      hr.value-splitter
-      .value-point-content.my-3
-        .text The safest, easiest to use scalpel currentl on the market
-  .request-sample-container
-      a> href='#'
-        span class="button-chev"
-          | Request a Sample
-
-.row.resources.m-auto
+.container
+  .row.resources.m-auto
     .video-banner.m-3
     .how-to-order.m-3
       .how-to-order-title How to order
@@ -74,57 +75,60 @@
           span class="button-chev"
             | Contracts
 
-.row.testimonials
-  .col-6.accredidation
-    .comment
-      .avatar-container
-        = image_tag('Avatar.svg', class: 'avatar')
-      .content-container
-        .name-container
-          .name Name
-          .accredidation Accredidcation
-        .text "This is what this person thinks about PenBlade"
-    .comment
-      .avatar-container
-        = image_tag('Avatar.svg', class: 'avatar')
-      .content-container
-        .name-container
-          .name Name
-          .accredidation Accredidcation
-        .text "This is what this person thinks about PenBlade"
-  .col-6.another-point
-    .comment
-      .container-text
-        .image
-          = image_tag('Features.svg')
-        .text-container
-          .text PenBlade is the easiest safety scalple available today. See how it works.
-          hr.comment-splitter
-      .link
-        a> href='#'
-          span class="button-chev-blue"
-            | Contact Us
-    .comment
-      .container-text
-        .image
-          = image_tag('Mail.svg')
-        .text-container
-          .text Do you have a question, or would like to place an order? Contact us today.
-          hr.comment-splitter
-      .link
-        a> href='#'
-          span class="button-chev-blue"
-            | Contact Us
+.container
+  .row.testimonials
+    .col-6.accredidation
+      .comment
+        .avatar-container
+          = image_tag('Avatar.svg', class: 'avatar')
+        .content-container
+          .name-container
+            .name Name
+            .accredidation Accredidcation
+          .text "This is what this person thinks about PenBlade"
+      .comment
+        .avatar-container
+          = image_tag('Avatar.svg', class: 'avatar')
+        .content-container
+          .name-container
+            .name Name
+            .accredidation Accredidcation
+          .text "This is what this person thinks about PenBlade"
+    .col-6.another-point
+      .comment
+        .container-text
+          .image
+            = image_tag('Features.svg')
+          .text-container
+            .text PenBlade is the easiest safety scalple available today. See how it works.
+            hr.comment-splitter
+        .link
+          a> href='#'
+            span class="button-chev-blue"
+              | Contact Us
+      .comment
+        .container-text
+          .image
+            = image_tag('Mail.svg')
+          .text-container
+            .text Do you have a question, or would like to place an order? Contact us today.
+            hr.comment-splitter
+        .link
+          a> href='#'
+            span class="button-chev-blue"
+              | Contact Us
+
 .case-study
-  .row
-    .col-6.cut-padding
-      = image_tag('Group.svg', class: 'group-image')
-    .col-6.cut-padding
-      .white
-        .overlay
-          .overlay-header Case Study
-          hr.splitter
-          .overlay-content Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, tempor a tortor. Pellentesque non dignissim neque. Ut porta viverra est, ut dignissim elit elementum ut. Nunc vel rhoncus nibh, ut tincidunt
-      .orange
+  .container
+    .row
+      .col-6.cut-padding
+        = image_tag('Group.svg', class: 'group-image')
+      .col-6.cut-padding
+        .white
+          .overlay
+            .overlay-header Case Study
+            hr.splitter
+            .overlay-content Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, tempor a tortor. Pellentesque non dignissim neque. Ut porta viverra est, ut dignissim elit elementum ut. Nunc vel rhoncus nibh, ut tincidunt
+        .orange
 
 = render "pages/shared/images_section"
