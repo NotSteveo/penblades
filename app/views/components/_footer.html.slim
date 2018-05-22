@@ -1,0 +1,15 @@
+nav.navbar.navbar-expand-sm.navbar-light.bg-light.flex-bottom
+  #navbarNav.navbar
+    ul.navbar-nav
+      li.nav-item
+        = link_to "Features", features_path, class: 'nav-link black'
+      li.nav-item
+        = link_to "Ordering", ordering_path, class: "nav-link black"
+      li.nav-item
+        = link_to "Resources", resources_path, class: "nav-link black"
+      li.nav-item
+        a.nav-link.black href="#"  Contact Us
+      li.nav-item
+        a.nav-link.black href="#"  Careers
+  .copyright-container
+    = image_tag("Copyright.svg", class: 'copyright')
